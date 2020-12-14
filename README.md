@@ -1,5 +1,9 @@
 # ECNU-Stat-templates
-Different templates for School of Statistics of ECNU are available here. Available templates include:
+Different templates for School of Statistics of ECNU are available here. All documents should be coded in UTF-8, and TeX files are compiled with XeLaTeX. 
+
+Please update R and Rstudio in the latest version, and TeXLive and TeXstudio are recommended for processing TeX files.  
+
+Available templates include:
 
 1. Two Beamer templates based on Beamer Zaragoza style, all in 19:6 presentation mode; 
 
