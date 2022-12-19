@@ -40,6 +40,10 @@
 
 1. 《应用概率统计》期刊TeX模板(含中文与英文论文模板)
 
+1. 现代简历TeX模板(中文版)
+
+1. 案例分析模板(TeX, prettydoc, rmdformats)
+
 
 Last updated 2021.5.2
 
