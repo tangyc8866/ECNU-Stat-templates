@@ -36,7 +36,7 @@
 
 1. 华东师范大学统计学院学术幻灯片Rmd+Xaringan模板(metro主题, 16:9 屏幕)
 
-1. 华东师范大学统计学院学术幻灯片Rmd2PPT模板(5:4, 16:9 屏幕)，[点击下载](https://github.com/tangyc8866/ECNU-Stat-templates/blob/main/ECNU-Stat-RmdPPT-templates.zip)，[点击下载](https://github.com/tangyc8866/ECNU-Stat-templates/raw/main/ECNU-Stat-RmdPPT-templates.zip)
+1. 华东师范大学统计学院学术幻灯片Rmd2PPT模板(5:4, 16:9 屏幕)
 
 
 Last updated 2021.5.2
