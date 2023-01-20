@@ -44,16 +44,20 @@
 
 1. 案例分析模板(TeX, prettydoc, rmdformats)
 
+1. 自然科学基金正文TeX模板(含biblatex测试文件)
 
-Last updated 2021.5.2
+1. 自然科学基金正文Rmarkdown模板(含biblatex测试文件)
+
+
+Last updated 2023.1.20
 
 Two TeX templates are added:
 
-1. Chinese version of tex template for both PhD dissertation and Master's thesis;
+1. TeX Template for Natural Science Foundation of China;
 
-- Master-PhD-Thesis TeX Template V2021-中文版.zip
+- iNSFC TeX模板-2023.zip
  
-3. English version of tex template for both PhD dissertation and Master's thesis
+2. Rmd Template for Natural Science Foundation of China;
 
-- Master-PhD-Thesis TeX Template V2021-English.zip
+- iNSFC Rmd模板-2023.zip
 
