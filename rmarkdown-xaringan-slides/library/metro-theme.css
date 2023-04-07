@@ -1,0 +1,582 @@
+
+/*  超链接颜色 */
+a:link {
+color:#660066;
+text-decoration:none;
+}
+a:visited {
+color:#330000;
+text-decoration:none;
+}
+a:hover {
+color:#FF0000;
+text-decoration:none;
+}
+a:active {
+color:#300000;
+text-decoration:none;
+}
+
+
+/*  页面内容设定  */
+.remark-slide-content {
+  background-color: #FAFAFA;  /* #23373B */
+  border-top: 80px solid #23373B;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 1em 2em 1em 2em; 
+}
+
+
+.remark-slide-content:not(.title-slide):not(.cover-slide):not(.inverse){
+  background-color: lightyellow;
+  font-size: 20px; /* 20  */
+  padding: 1em 2em 1em 2em;
+}
+
+
+.remark-slide-content > h1 {
+  font-family: 'Fira Sans';
+  font-weight: normal;
+  font-size: 45px;
+  margin-top: -95px;
+  margin-left: -00px;
+  color: #FAFAFA;
+}
+
+/*
+.remark-slide-content > h2, h3, h4 {
+  padding-top: -15px;
+  padding-bottom: 00px;
+  color: #1A292C;
+  text-shadow: none;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 00px;
+  margin-bottom: -10px;
+}
+*/
+
+.remark-slide-content > inverse {
+  width: 112px; 
+  height: 47px;
+  border-bottom: 1px solid black;
+  position: absolute;
+}
+
+.remark-slide-content > h2, .pull-left > h2, .pull-right > h2 {
+  font-size: 35px;
+}
+
+.remark-slide-content > h3, .pull-left > h3, .pull-right > h3
+{
+  font-size: 30px;
+}
+
+.remark-slide-content > h4, .pull-left > h4, .pull-right > h4 {
+  font-size: 25px;
+}
+
+/* 页面代码显示  */
+.remark-code {
+  font-size: 25px;
+}
+
+.remark-inline-code {
+  font-size: 25px;
+  color: blue; 
+}
+
+.remark-code, .remark-inline-code { 
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; 
+}
+
+.remark-code-line-highlighted { 
+  background-color: cyan;  /*  #ffff88 */
+}
+
+/*  特定页面cover, title  */
+/* cover-slide style */
+.cover-slide {
+  background-image: url(../figures/bdbg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.cover-slide h1, .cover-slide h2, .cover-slide h3 {
+  color: blue;
+  text-align: center;
+  line-height: 1.0em;
+}
+
+
+/* title-slide style */
+.title-slide {
+  border-top: 0px solid;
+  background-image: url("../figures/slideCover.png");
+  background-color: #FAFAFA;
+  background-size: cover;
+}
+
+.title-slide h1{
+  font-size: 60px;
+  color: white; /*  #66ccff  */
+}
+.title-slide h2{
+  font-size: 50px;
+  color: #cccc00;
+}
+.title-slide h3{
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.title-slide h4{
+  font-size: 30px;
+  color: #ffffff;
+}
+
+
+/*  页码  */
+.remark-slide-number {
+  font-size: 13pt;
+  font-family: 'Fira Sans';
+/*  color: #272822;  */
+  color: red;  
+  opacity: 1;
+}
+
+.cover-slide .remark-slide-number, .title-slide .remark-slide-number {
+  font-size: 13pt;
+  font-family: 'Fira Sans';
+  color: #FAFAFA;
+  opacity: 1;
+}
+
+/*   脚注   */
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+
+
+/* turns off slide numbers for title page */
+/*
+.title-slide .remark-slide-number {
+    display: none;
+}
+*/
+
+/*  标题页定制  */
+.metroheader {
+  border-top: 80px solid #003399;
+}
+
+.header {
+	position: absolute;
+	top: 4px;
+  font-size: 45px;
+	color: #fff;
+}
+
+/*
+.hr {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  background-color:#666;
+  opcaity: 0.5;
+}
+*/
+
+.textshadow {
+  text-shadow: 3px 3px 3px #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/*  (div方式)页眉与页脚类设定: 增加logo  */
+div.my-header {
+content: "";
+    position: absolute;
+    top: 2px;
+    right:   -40px;
+    height: 75px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../figures/statLogo-03.png");
+}
+
+
+div.python-footer {
+content: "";
+    position: absolute;
+    bottom: 40px;
+    right:   -155px;  
+    height: 80px;    
+    width: 240px;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../figures/python.png");
+}
+
+div.R-footer {
+content: "";
+    position: absolute;
+    bottom: 40px;
+    right:   -40px;  
+    height: 50px;    
+    width: 120px;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../figures/Rlogo.png"); 
+}
+
+
+/* Removes colored bar from top of the slide resulting in a clear slide */
+.clear{
+  border-top: 0px solid #FAFAFA;
+}
+
+/*  分栏设定   */
+/*  不等宽双栏  */
+.left-column {
+  color: blue;
+  width: 33%; /* height: 92%;  */
+  float: left;
+  /* background-color: #CCCC99; */
+  padding-top: 0em;
+}
+
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+
+.right-column {
+  color: blue;
+  width: 66%;
+  float: right;
+  background-color: #CCCCFF;
+  padding-top: 0em;
+}
+
+
+/*  等宽双栏  */
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
+
+/*  三栏  */
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 33%;
+  text-align: left;
+}
+
+/*   颜色   */
+.red {
+  color: #FF0000;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+.green {
+  color: #00FF00;
+}
+
+.brown {
+  color: #FF7F00;
+}
+
+.yellow {
+  color: #FFFF00;
+}
+
+.cyan {
+  color: #00FFFF;
+}
+
+.purple {
+  color: #8B00FF;
+}
+
+/* 文本着色  */
+.content-box {
+    box-sizing: border-box;
+    background-color: #e2e2e2; /* lt gray*/
+}
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-army,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 0 0 15px;
+  overflow: hidden;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+.content-box-blue { background-color: #F0F8FF; }
+.content-box-gray { background-color: #e2e2e2; }
+.content-box-grey {	background-color: #F5F5F5; }
+.content-box-army {	background-color: #737a36; }
+.content-box-green { background-color: #d9edc2; }
+.content-box-purple { background-color: #e2e2f9; }
+.content-box-red { background-color: #ffcccc; }
+.content-box-yellow { background-color: #fef5c4; }
+.content-box-blue .remark-inline-code,
+.content-box-gray .remark-inline-code,
+.content-box-grey .remark-inline-code,
+.content-box-army .remark-inline-code,
+.content-box-green .remark-inline-code,
+.content-box-purple .remark-inline-code,
+.content-box-red .remark-inline-code,
+.content-box-yellow .remark-inline-code {
+  background: none;
+}
+
+
+
+/*  代码字体大小  */
+.code10 .remark-code {
+  font-size: 10%;
+}
+
+.code20 .remark-code {
+  font-size: 20%;
+}
+
+.code30 .remark-code {
+  font-size: 30%;
+}
+
+.code40 .remark-code {
+  font-size: 40%;
+}
+
+.code50 .remark-code {
+  font-size: 50%;
+}
+
+.code60 .remark-code {
+  font-size: 60%;
+}
+
+.code70 .remark-code {
+  font-size: 70%;
+}
+
+.code80 .remark-code {
+  font-size: 80%;
+}
+
+.code90 .remark-code {
+  font-size: 90%;
+}
+
+.code100 .remark-code {
+  font-size: 100%;
+}
+
+/* 文本字体大小 */
+.font10 {
+  font-size: 10%;
+}
+
+.font20 {
+  font-size: 20%;
+}
+
+.font30 {
+  font-size: 30%;
+}
+
+.font40 {
+  font-size: 40%;
+}
+
+.font50 {
+  font-size: 50%;
+}
+
+.font60 {
+  font-size: 60%;
+}
+
+.font70 {
+  font-size: 70%;
+}
+
+.font80 {
+  font-size: 80%;
+}
+
+.font90 {
+  font-size: 90%;
+}
+
+.font100 {
+  font-size: 100%;
+}
+
+.font110 {
+  font-size: 110%;
+}
+
+.font120 {
+  font-size: 120%;
+}
+
+.font130 {
+  font-size: 130%;
+}
+
+.font140 {
+  font-size: 140%;
+}
+
+.font150 {
+  font-size: 150%;
+}
+
+.font160 {
+  font-size: 160%;
+}
+.font170 {
+  font-size: 170%;
+}
+.font180 {
+  font-size: 180%;
+}
+.font190 {
+  font-size: 190%;
+}
+.font200 {
+  font-size: 200%;
+}
+
+
+/*  字体相对大小  */
+.large { 
+  font-size: 130% 
+}
+
+.small { 
+  font-size: 70% 
+}
+
+.tiny {
+  font-size: 40%
+}
+
+/*   对齐方式   */
+.alignleft {
+  display: inline;
+  float: left;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin:auto;
+}
+
+/*  表格   */
+table {
+    width: 100%; 
+    max-width: 65em; 
+    border: 1px solid #dedede; 
+    margin: 15px auto; 
+    border-collapse: collapse; 
+    empty-cells: show; 
+}
+table th,
+table td {
+  height: 35px; 
+  border: 2px solid #dedede; 
+  padding: 0 10px; 
+}
+table tbody tr:nth-child(2n) {
+    background: rgba(158,188,226,0.12); 
+}
+table th {
+    font-weight: bold; 
+    text-align: center !important; 
+    background: rgba(158,188,226,0.2); 
+}
+
+.remark-slide table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
+table.dataTable tbody {
+  background-color: #343838;
+  color: #FFFFFF;
+}
+table.dataTable.display tbody tr.odd {
+  background-color: #343838;
+}
+table.dataTable.display tbody tr.even {
+  background-color: #1E3D4C;
+}
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: #FFFFFF;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  color: #FFFFFF !important;
+}
+
+
+/* 固定高度块定义  */
+ .wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.wrapper1 {height: 200px; }
+.wrapper2 {height: 300px; }
+.wrapper3 {height: 400px; }
+.wrapper4 {height: 500px; }
+.wrapper5 {height: 600px; }

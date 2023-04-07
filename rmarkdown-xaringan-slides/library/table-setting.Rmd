@@ -1,0 +1,21 @@
+<style>
+  /* Table style design*/
+  table {
+    width: 100%; max-width: 65em; border: 1px solid #dedede; 
+    margin: 15px auto; 
+    border-collapse: collapse; empty-cells: show; 
+  }
+table th,
+table td {
+  height: 35px; 
+  border: 2px solid #dedede; 
+  padding: 0 10px; 
+}
+table tbody tr:nth-child(2n) {
+  background: rgba(158,188,226,0.12); 
+}
+table th {
+  font-weight: bold; text-align: center !important; 
+  background: rgba(158,188,226,0.2); 
+}
+</style>

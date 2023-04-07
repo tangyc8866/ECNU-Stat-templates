@@ -1,0 +1,42 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX","output/SVG"],
+  extensions: ["tex2jax.js","MathMenu.js","MathZoom.js"],
+  jax: ["input/TeX", "output/HTML-CSS"], 
+  tex2jax: {
+      inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+      ],
+      displayMath: [
+          ['$$', '$$'],
+          ["\[", "\]"]
+      ],
+      processEscapes: true
+  },
+  TeX: {
+    equationNumbers: { autoNumber: "AMS" }, 
+    Macros: {
+      hfill: "{}",
+      RR: ['{\\bf R}'],
+      rmd: ['\\mathrm{d}'],
+      mbb: ['\\mathbb'],
+      veps: ['\\varepsilon'],
+      abs: ['\\left| #1 \\right|',1],
+      du: ['^\\circ'],
+      myHearts: ['\\color{#1}{\\heartsuit}\\kern-2.5pt\\color{#2}{\\heartsuit}', 2],
+      san: ['a_1+a_2+\\dots+a_n'],
+      sak: ['a_1+a_2+\\dots+a_{#1}', 1],
+      sxk: ['{#1}_1+{#1}_2+\\dots+{#1}_{#2}', 2],
+      bold: ['\\bf #1', 1],
+      bm: ["{\\boldsymbol #1}",1],
+    }, 
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  }
+});
+
+</script>
+<script type="text/javascript"
+   src="http://127.0.0.1/MathJax/MathJax.js">
+</script>
+
