@@ -49,7 +49,11 @@
 1. 自然科学基金正文Rmarkdown模板(含biblatex测试文件)
 
 
-Last updated 2023.1.20
+
+----
+## 版本更新信息
+
+Updated 2023.01.20
 
 Two TeX templates are added:
 
@@ -62,7 +66,7 @@ Two TeX templates are added:
 - iNSFC Rmd模板-2023.zip
 
 
-Last updated 2023.4.07
+Last updated 2023.04.07
 
 A rmarkdown-xaringan-slide template is added.
 
