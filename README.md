@@ -61,3 +61,8 @@ Two TeX templates are added:
 
 - iNSFC Rmd模板-2023.zip
 
+
+Last updated 2023.4.07
+
+A rmarkdown-xaringan-slide templates is added.
+
