@@ -1,6 +1,6 @@
 # 华东师范大学统计学院模板/ECNU-Stat-templates: 
 
-更新时间: 2022-12-09
+更新时间: 2023-04-07
 
 本站提供若干自主开发的毕业论文论文模板和学术报告模板，版权归华东师范大学汤银才教授所有，使用时请注明或加致谢！
 
@@ -64,5 +64,5 @@ Two TeX templates are added:
 
 Last updated 2023.4.07
 
-A rmarkdown-xaringan-slide templates is added.
+A rmarkdown-xaringan-slide template is added.
 
